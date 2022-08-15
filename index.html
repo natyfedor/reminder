@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Reminder</title>
+</head>
+<body>
+    <audio src="/audio/clock-alarm-8761.mp3" id="audio"></audio>
+    <main>
+        <h1 id="h1"></h1>
+        <div id="write"><input id='mynote' type="text"><button id="add">+</button> 
+                       <div id="puttime">
+                            <select name="hour" id="hour">
+                            </select>
+                            <select name="minute" id="minute">
+                            </select> 
+                       </div>
+        </div>
+        <ul id="list">
+            <li><p>Vyniesť smeti</p><p class="when">09:34</p><img class="del" src="/style/trash-svgrepo-com.svg"></li>
+            <li><p>Vyvenčiť mačku</p><p class="when">08:42</p><img class="del" src="/style/trash-svgrepo-com.svg"></li>
+            <li><p>Oprať psa</p><p class="when">10:54</p><img class="del" src="/style/trash-svgrepo-com.svg"></li>
+        </ul>
+    </main>
+    <script src="/js/script.js"></script>
+</html>
